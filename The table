@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Please scroll down until you find further comments indicated by the "<!--" at the start of a comment.
+
+You will find instruction to edit the information for each of the table rows.-->
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>No. of serves</th>
+    <th>Can you freeze</th>
+    <th>Adaptable for special diets</th>
+  </tr>
+  <tr>
+<!-- enter your information for the top row in between the ">" and the "<" for each column below -->
+    <td id="No. of serves">5</td>
+    <td id="Can you freeze">Yes</td>
+    <td id="Adaptable for special diets">Yes</td>
+  </tr>  
+  
+  <tr>
+    <th>Prep time</th>
+    <th>Does it keep</th>
+    <th>Capability to make</th>
+  </tr>
+  <tr>
+<!-- enter your information for the middle row in between the ">" and the "<" for each column below -->
+    <td id="Prep time">1 hour</td>
+    <td id="Does it keep">Yes</td>
+    <td id="Capability to make">Easy</td>
+  </tr>
+  
+  <tr>
+    <th>Cooking time</th>
+    <th>Bigger portion</th>
+    <th>Goes well with</th>
+  </tr>
+  <tr>
+  <!-- enter your information for the bottom row in between the ">" and the "<" for each column below -->
+    <td id="Cooking time">1 hour</td>
+    <td id="Bigger portion">Yes</td>
+    <td id="Goes well with">Wine</td>
+  </tr>
+</table>
+
+</body>
+</html>
